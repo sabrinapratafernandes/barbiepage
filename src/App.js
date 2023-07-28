@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./components/Main";
+import Quiz from "./components/Quiz";
+import Curiosities from "./components/Curiosities";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="
+        text-white
+        w-screen
+        h-screen
+        bg-gradient-to-r 
+        from-gradient-initialGradient from-55%
+        to-gradient-finalGradient to-100%">
+      <BrowserRouter>
+      <img className=" flex justify-center w-screen p-2 object-contain h-48 w-96" 
+             src="/assets/barbie-logo.png"/>
+        <Routes>
+          <Route path="/" element={<Main/>}/>
+          <Route path="/quiz-barbie" element={<Quiz/>} />
+          <Route path="/curiosidades-barbie" element={<Curiosities/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
 
 export default App;
+
