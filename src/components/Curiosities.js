@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import curiousFacts from '../data/curiousFacts'
 
 const Curiosities = () => {
@@ -17,11 +18,8 @@ const Curiosities = () => {
                     10 Fatos sobre a Barbie
             </h2>
             <img src='/assets/curiosidades.webp'
-                 className='
-                  p-4
-                 '/>
-            
-            <ul>
+                 className='p-4'/>
+            <ul className='md:w-3/4'>
             {curiousFacts.map((fact, index) => (
             <li key={index}>
                 <h2 className="
@@ -34,14 +32,28 @@ const Curiosities = () => {
                 ">
                     {fact.title}:
                 </h2>
-                <p className='
-                    p-2
-                '>
+                <p className='p-2'>
                     {fact.text}
                 </p>
             </li>
             ))}
             </ul>
+            <Link to="/"
+                  className='
+                    flex
+                    justify-center
+                    w-3/4 
+                    h-auto
+                    bg-pink
+                    font-semibold 
+                    text-xl
+                    p-2
+                    m-4
+                    shadow-lg shadow-blue
+                    rounded
+                  '>
+                    Página inicial
+            </Link>
         </div>
     )
 }
