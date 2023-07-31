@@ -40,17 +40,19 @@ const Curiosities = () => {
             </ul>
             <Link to="/"
                   className='
-                    flex
-                    justify-center
-                    w-3/4 
-                    h-auto
-                    bg-pink
-                    font-semibold 
-                    text-xl
-                    p-2
-                    m-4
-                    shadow-lg shadow-blue
-                    rounded
+                  flex
+                  justify-center
+                  w-3/4 
+                  h-auto
+                  bg-pink
+                  font-semibold 
+                  text-xl
+                  p-2
+                  m-4
+                  mb-10
+                  shadow-lg shadow-blue
+                  rounded
+                  md:w-2/5
                   '>
                     Página inicial
             </Link>

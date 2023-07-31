@@ -4,6 +4,7 @@ import Quiz from "./components/Quiz";
 import Curiosities from "./components/Curiosities";
 import MovieSuccess from "./components/MovieSuccess";
 import AllMovies from "./components/AllMovies";
+import DiscontinuedBarbies from "./components/DiscontinuedBarbies";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/curiosidades-barbie" element={<Curiosities/>} />
           <Route path="/barbie-live-action" element={<MovieSuccess/>} />
           <Route path="/lista-filmes-barbie" element={<AllMovies/>}/>
+          <Route path="/barbies-fora-de-linha" element={<DiscontinuedBarbies/>} />
         </Routes>
       </BrowserRouter>
     </div>
