@@ -16,7 +16,7 @@ const Result = ({score, total}) => {
                     justify-center 
                     items-center 
                     bg-rosaClaro">
-            <img src="/assets/quiz.jpg" 
+            <img src={`${baseUrl}/assets/quiz.jpg`}
                 className="bg-rosaClaro w-full rounded p-5 md:w-1/3 md:p-0"/>
             </div>
             <h3 className="

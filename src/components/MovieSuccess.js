@@ -18,7 +18,7 @@ const MovieSuccess = () => {
                 '>
                 Barbie, 5 motivos para explicar o sucesso do filme nos cinemas.
             </h2>
-            <img src="/assets/bb-filme.webp" 
+            <img src={`${baseUrl}/assets/bb-filme.webp`}
                 className="p-2 md:w-2/5"/>
             {movieHype.map((fact, index) => (
                 <ul className="md:w-3/4 md:m-2">

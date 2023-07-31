@@ -17,7 +17,7 @@ const Curiosities = () => {
                 '>
                     10 Fatos sobre a Barbie
             </h2>
-            <img src='/assets/curiosidades.webp'
+            <img src={`${baseUrl}/assets/curiosidades.webp`}
                  className='p-4'/>
             <ul className='md:w-3/4'>
             {curiousFacts.map((fact, index) => (

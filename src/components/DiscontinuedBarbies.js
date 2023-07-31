@@ -17,7 +17,7 @@ const DiscontinuedBarbies = () => {
                 '>
                     Algumas Barbies que saíram de linha:
             </h2>
-            <img src='/assets/barbieDiscontinued.png'
+            <img src={`${baseUrl}/assets/barbieDiscontinued.png`}
                  className='p-4'/>
 
             <ul className='md:w-3/4'>
