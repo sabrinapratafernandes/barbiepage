@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import curiousFacts from '../data/curiousFacts'
 
+const baseUrl = process.env.PUBLIC_URL ?? '';
+
 const Curiosities = () => {
     return (
         <div className='

@@ -1,6 +1,8 @@
 import movieHype from "../data/movieHype"
 import { Link } from 'react-router-dom';
 
+const baseUrl = process.env.PUBLIC_URL ?? '';
+
 const MovieSuccess = () => {
 
     return (

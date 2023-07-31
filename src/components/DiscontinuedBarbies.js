@@ -1,6 +1,8 @@
 import barbiesOutOfLine from "../data/barbiesOutOfLine";
 import { Link } from 'react-router-dom';
 
+const baseUrl = process.env.PUBLIC_URL ?? '';
+
 const DiscontinuedBarbies = () => {
     return (
         <div className='

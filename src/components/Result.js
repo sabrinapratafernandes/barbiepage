@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 
+const baseUrl = process.env.PUBLIC_URL ?? '';
+
 const Result = ({score, total}) => {
     return (
         <div className="
