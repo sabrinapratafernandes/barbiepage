@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.a349055d.css",
-    "main.js": "/static/js/main.01c18f3b.js",
-    "static/js/787.31c4ffbf.chunk.js": "/static/js/787.31c4ffbf.chunk.js",
-    "index.html": "/index.html",
-    "main.a349055d.css.map": "/static/css/main.a349055d.css.map",
-    "main.01c18f3b.js.map": "/static/js/main.01c18f3b.js.map",
-    "787.31c4ffbf.chunk.js.map": "/static/js/787.31c4ffbf.chunk.js.map"
+    "main.css": "/barbiepage/static/css/main.a349055d.css",
+    "main.js": "/barbiepage/static/js/main.78bd71a9.js",
+    "static/js/787.31c4ffbf.chunk.js": "/barbiepage/static/js/787.31c4ffbf.chunk.js",
+    "index.html": "/barbiepage/index.html",
+    "main.a349055d.css.map": "/barbiepage/static/css/main.a349055d.css.map",
+    "main.78bd71a9.js.map": "/barbiepage/static/js/main.78bd71a9.js.map",
+    "787.31c4ffbf.chunk.js.map": "/barbiepage/static/js/787.31c4ffbf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a349055d.css",
-    "static/js/main.01c18f3b.js"
+    "static/js/main.78bd71a9.js"
   ]
 }
