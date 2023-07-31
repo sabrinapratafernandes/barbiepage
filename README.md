@@ -1,9 +1,5 @@
 # Barbie page 
 
-<div align="center">
-  <img src="./assets/barbie-page.jpg">
-</div>
-
 Página desenvolvida com objetivo de praticar desenvolvimento Frontend.
 
 # Conhecimentos aplicados: 

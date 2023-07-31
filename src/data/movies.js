@@ -1,6 +1,8 @@
+const base = process.env.PUBLIC_URL ?? ''
+
 const movies = [
     {
-        imgUrl: "/assets/movies1.webp",
+        imgUrl: `${base}/assets/movies1.webp`,
         title: "Barbie A Estrela do Rock (1987)"
     },
     {
