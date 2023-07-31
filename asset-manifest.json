@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/barbiepage/static/css/main.a349055d.css",
-    "main.js": "/barbiepage/static/js/main.78bd71a9.js",
+    "main.js": "/barbiepage/static/js/main.069c4548.js",
     "static/js/787.31c4ffbf.chunk.js": "/barbiepage/static/js/787.31c4ffbf.chunk.js",
     "index.html": "/barbiepage/index.html",
     "main.a349055d.css.map": "/barbiepage/static/css/main.a349055d.css.map",
-    "main.78bd71a9.js.map": "/barbiepage/static/js/main.78bd71a9.js.map",
+    "main.069c4548.js.map": "/barbiepage/static/js/main.069c4548.js.map",
     "787.31c4ffbf.chunk.js.map": "/barbiepage/static/js/787.31c4ffbf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a349055d.css",
-    "static/js/main.78bd71a9.js"
+    "static/js/main.069c4548.js"
   ]
 }
